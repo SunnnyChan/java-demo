@@ -2,10 +2,12 @@ package me.sunny.demo.dp;
 
 import me.sunny.demo.dp.behavioral.observer.CustomerObserver;
 import me.sunny.demo.dp.behavioral.observer.MagazineSubject;
+import org.testng.annotations.Test;
 
 public class ObserverTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         //创建主题(被观察者)
         MagazineSubject magazine = new MagazineSubject();
 
