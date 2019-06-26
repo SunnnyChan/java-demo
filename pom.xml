@@ -35,5 +35,6 @@
     <module>demo-spring</module>
   <module>demo-netty</module>
   <module>demo-jdk</module>
+  <module>demo-dp</module>
   </modules>
 </project>
