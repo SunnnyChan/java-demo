@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class ListenerNum1 implements ApplicationListener {
 
-
     //使用注解@Async支持 这样不仅可以支持通过调用，也支持异步调用，非常的灵活，
     @Async
     @Override

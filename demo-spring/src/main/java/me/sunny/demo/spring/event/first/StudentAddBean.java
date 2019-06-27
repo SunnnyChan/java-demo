@@ -12,8 +12,13 @@ public class StudentAddBean {
     /**
      * 定义Spring上下文对象
      */
-    @Autowired
+
     private ApplicationContext applicationContext;
+
+    @Autowired
+    public StudentAddBean(ApplicationContext applicationContext) {
+        this.applicationContext = applicationContext;
+    }
 
     /**
      * 增加一个学生
