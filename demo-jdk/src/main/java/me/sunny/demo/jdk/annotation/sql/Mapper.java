@@ -1,4 +1,4 @@
-package me.sunny.demo.jdk.annotetion.sql;
+package me.sunny.demo.jdk.annotation.sql;
 
 @Table("t_user")
 public class Mapper {

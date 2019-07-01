@@ -1,4 +1,4 @@
-package me.sunny.demo.jdk.annotetion.sql;
+package me.sunny.demo.jdk.annotation.sql;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
