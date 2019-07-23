@@ -58,8 +58,9 @@
         <module>demo-dp</module>
         <module>demo-rp</module>
         <module>demo-network</module>
-  <module>demo-paradigm</module>
-  <module>demo-algos</module>
-  <module>demo-fw</module>
+        <module>demo-paradigm</module>
+        <module>demo-algos</module>
+        <module>demo-fw</module>
+        <module>demo-test</module>
   </modules>
 </project>
