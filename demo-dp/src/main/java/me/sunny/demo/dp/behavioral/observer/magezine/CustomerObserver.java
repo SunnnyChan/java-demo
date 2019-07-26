@@ -1,4 +1,4 @@
-package me.sunny.demo.dp.behavioral.observer;
+package me.sunny.demo.dp.behavioral.observer.magezine;
 
 public class CustomerObserver implements Observer {
     //订阅者名字

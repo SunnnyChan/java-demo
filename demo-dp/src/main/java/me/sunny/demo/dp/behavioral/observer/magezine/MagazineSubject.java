@@ -1,4 +1,4 @@
-package me.sunny.demo.dp.behavioral.observer;
+package me.sunny.demo.dp.behavioral.observer.magezine;
 
 import java.util.ArrayList;
 import java.util.List;

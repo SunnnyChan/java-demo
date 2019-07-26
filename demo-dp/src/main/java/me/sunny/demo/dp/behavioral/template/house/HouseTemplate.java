@@ -1,4 +1,4 @@
-package me.sunny.demo.dp.behavioral.template;
+package me.sunny.demo.dp.behavioral.template.house;
 
 public abstract class HouseTemplate {
 

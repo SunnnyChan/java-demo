@@ -1,4 +1,4 @@
-package me.sunny.demo.dp.behavioral.strategy;
+package me.sunny.demo.dp.behavioral.strategy.role;
 
 /**
  * 抽象策略类

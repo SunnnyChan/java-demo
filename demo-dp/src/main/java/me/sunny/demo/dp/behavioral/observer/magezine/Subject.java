@@ -1,4 +1,4 @@
-package me.sunny.demo.dp.behavioral.observer;
+package me.sunny.demo.dp.behavioral.observer.magezine;
 
 public interface Subject {
     //添加观察者
