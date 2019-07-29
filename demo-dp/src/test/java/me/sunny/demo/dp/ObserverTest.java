@@ -1,7 +1,7 @@
 package me.sunny.demo.dp;
 
-import me.sunny.demo.dp.behavioral.observer.magezine.CustomerObserver;
-import me.sunny.demo.dp.behavioral.observer.magezine.MagazineSubject;
+import me.sunny.demo.dp.oop.behavioral.observer.magezine.CustomerObserver;
+import me.sunny.demo.dp.oop.behavioral.observer.magezine.MagazineSubject;
 import org.testng.annotations.Test;
 
 public class ObserverTest {

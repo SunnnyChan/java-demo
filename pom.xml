@@ -68,5 +68,6 @@
         <module>demo-test</module> <!-- 测试 -->
         <module>demo-fw</module> <!-- 框架 -->
         <module>demo-ddd</module> <!-- 领域驱动开发 -->
+  <module>demo-multi-thread</module>
   </modules>
 </project>
