@@ -46,6 +46,8 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+## JavaDoc
+javadocs
 
 ### Windows ###
 # Windows image file caches
