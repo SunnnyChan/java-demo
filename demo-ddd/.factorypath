@@ -1,7 +1,0 @@
-<factorypath>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/beust/jcommander/1.72/jcommander-1.72.jar" enabled="true" runInBatchMode="false"/>
-</factorypath>
