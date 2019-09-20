@@ -8,6 +8,11 @@
 .classpath
 /out/
 
+## VS Code
+.factorypath
+.classpath
+.project
+
 ### log ###
 logs/
 *.log
