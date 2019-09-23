@@ -82,8 +82,8 @@
         <module>demo-ddd</module> <!-- 领域驱动开发 -->
         <module>demo-multi-thread</module> <!-- 多线程开发 -->
         <module>demo-std</module> <!-- Java 规范 -->
-
-  <module>web-javadoc</module>
+        <module>web-javadoc</module>
+        <module>demo-cookbook</module>
   </modules>
 
 </project>
