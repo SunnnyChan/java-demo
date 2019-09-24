@@ -1,11 +1,13 @@
 package me.sunny.demo.test
 
+import spock.lang.Specification
 import spock.lang.Unroll
 
 import java.util.function.Consumer
 
 
-class SearchTest extends spock.lang.Specification {
+class SearchTest extends Specification {
+
     def setup() {}          // run before every feature method
     def cleanup() {}        // run after every feature method
     def setupSpec() {}     // run before the first feature method
