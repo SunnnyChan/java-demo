@@ -8,7 +8,9 @@
 ### sql
 
 # demo-paradigm （Java编程范式）
+
 # demo-multi-thread （Java 多线程编程）
+
 # demo-rp （Java 响应式编程）
 ## Reactor
 
@@ -37,6 +39,9 @@
 ## socket
 
 # demo-ddd （领域驱动设计）
+
+# demo-web (Java Web)
+## [Async Http Client - Asynchronous Http and WebSocket Client library for Java](https://github.com/AsyncHttpClient/async-http-client)
 
 # demo-network （Java 网络编程）
 

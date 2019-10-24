@@ -84,6 +84,7 @@
         <module>demo-std</module> <!-- Java 规范 -->
         <module>web-javadoc</module>
         <module>demo-cookbook</module>
+        <module>demo-web</module>
   </modules>
 
 </project>
