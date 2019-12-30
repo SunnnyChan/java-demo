@@ -1,4 +1,4 @@
-package me.sunny.demo.algos;
+package me.sunny.demo.algos.math;
 
 public class Gcd {
 

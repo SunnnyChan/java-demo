@@ -1,5 +1,6 @@
-package me.sunny.demo.algos;
+package me.sunny.demo.algos.math;
 
+import me.sunny.demo.algos.math.Gcd;
 import org.junit.Assert;
 import org.junit.Test;
 

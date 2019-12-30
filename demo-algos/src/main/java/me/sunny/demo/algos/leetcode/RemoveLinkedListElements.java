@@ -3,6 +3,7 @@ package me.sunny.demo.algos.leetcode;
 import java.util.Objects;
 
 public class RemoveLinkedListElements {
+
     public ListNode removeElements(ListNode head, int val) {
         ListNode node = head;
         while(!Objects.isNull(node)) {
