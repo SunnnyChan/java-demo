@@ -7,6 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>demo</name>
     <url>http://maven.apache.org</url>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- 编译字符编码为utf-8 -->
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> <!-- 输出字符编码为UTF-8  -->
@@ -14,7 +15,6 @@
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -43,6 +43,32 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        <!-- Mandatory dependencies for using Spock -->
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>1.0-groovy-2.4</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Optional dependencies for using Spock -->
+        <dependency> <!-- use a specific Groovy version rather than the one specified by spock-core -->
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+        <dependency> <!-- enables mocking of classes (in addition to interfaces) -->
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+      <!-- enables mocking of classes without default constructor (together with CGLIB) -->
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>2.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -65,6 +91,34 @@
                     <aggregate>true</aggregate>
                 </configuration>
             </plugin>
+            <plugin>
+                <!-- The gmavenplus plugin is used to compile Groovy code. To learn more about this plugin,
+                visit https://github.com/groovy/GMavenPlus/wiki -->
+                <groupId>org.codehaus.gmavenplus</groupId>
+                <artifactId>gmavenplus-plugin</artifactId>
+                <version>1.4</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Optional plugins for using Spock -->
+            <!-- Only required if names of spec classes don't match default Surefire patterns (`*Test` etc.) -->
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <useFile>false</useFile>
+                    <includes>
+                        <include>**/*Spec.java</include>
+                        <include>**/*Test.java</include> <!-- Just in case of having also "normal" JUnit tests -->
+                    </includes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -77,14 +131,15 @@
         <module>demo-network</module> <!-- 网络编程 -->
         <module>demo-paradigm</module> <!-- 编程范式 -->
         <module>demo-algos</module> <!-- 算法 -->
-        <module>demo-test</module> <!-- 测试 -->
+        <module>demo-test</module> <!-- 单元测试 -->
         <module>demo-fw</module> <!-- 框架 -->
         <module>demo-ddd</module> <!-- 领域驱动开发 -->
         <module>demo-multi-thread</module> <!-- 多线程开发 -->
         <module>demo-std</module> <!-- Java 规范 -->
-        <module>web-javadoc</module>
-        <module>demo-cookbook</module>
-        <module>demo-web</module>
+        <module>web-javadoc</module> <!-- JavaDoc -->
+        <module>demo-cookbook</module> <!-- Java 场景开发 -->
+        <module>demo-web</module> <!-- Java Web  开发-->
+        <module>demo-basics</module> <!-- Java 基础  开发-->
   </modules>
 
 </project>
