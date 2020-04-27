@@ -1,3 +1,2 @@
-# Java Doc
+# Java Web Doc
 
-## [Deploy](_doc/JavaDoc-Deploy.md)
