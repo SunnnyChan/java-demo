@@ -44,6 +44,16 @@ public class TestSample2 {
     }
 
     /**
+     * 通过实现类标记的变量直接调用标注了注解的方法，但接口中的方法未标记
+     * 实现类new创建
+     */
+    @Test
+    public void testAopSample2ImplClassWithNoAnnotation2() throws Exception {
+        Sample2ServiceImpl sample2HelloInterface = new Sample2ServiceImpl();
+        sample2HelloInterface.sayHello();
+    }
+
+    /**
      * 通过接口标记的变量直接调用标注了注解的方法，但接口中的方法未标记
      * 实现类new创建
      */
@@ -52,4 +62,5 @@ public class TestSample2 {
         Sample2HelloInterface sample2HelloInterface = new Sample2ServiceImpl();
         sample2HelloInterface.sayHello();
     }
+
 }
