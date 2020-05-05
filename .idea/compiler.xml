@@ -10,18 +10,17 @@
         <module name="demo-web" />
         <module name="demo-cookbook" />
         <module name="demo-netty" />
+        <module name="demo-std" />
         <module name="demo-jdk" />
         <module name="web-javadoc" />
         <module name="demo-ddd" />
         <module name="demo-dp" />
         <module name="demo-algos" />
         <module name="demo-fw" />
-        <module name="demo-std" />
         <module name="demo-aop" />
         <module name="demo-test" />
         <module name="demo-rp" />
         <module name="demo-network" />
-        <module name="demo-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

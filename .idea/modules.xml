@@ -14,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/demo-netty/demo-netty.iml" filepath="$PROJECT_DIR$/demo-netty/demo-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-network/demo-network.iml" filepath="$PROJECT_DIR$/demo-network/demo-network.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-rp/demo-rp.iml" filepath="$PROJECT_DIR$/demo-rp/demo-rp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-spring/demo-spring.iml" filepath="$PROJECT_DIR$/demo-spring/demo-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-std/demo-std.iml" filepath="$PROJECT_DIR$/demo-std/demo-std.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-test/demo-test.iml" filepath="$PROJECT_DIR$/demo-test/demo-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />

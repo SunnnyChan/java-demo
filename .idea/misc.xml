@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/demo-basics/pom.xml" />
         <option value="$PROJECT_DIR$/demo-paradigm/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring/pom.xml" />
       </set>
     </option>
   </component>
