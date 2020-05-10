@@ -13,7 +13,6 @@
         <module name="demo-std" />
         <module name="demo-jdk" />
         <module name="web-javadoc" />
-        <module name="demo-ddd" />
         <module name="demo-dp" />
         <module name="demo-algos" />
         <module name="demo-fw" />

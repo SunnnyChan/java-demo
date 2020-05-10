@@ -1,5 +1,8 @@
-package me.sunny.demo.basics;
+package me.sunny.demo.basics.type;
 
+/**
+ * @author sunnnychan@gmail.com
+ */
 public class TypeCast {
 
     public String wrapperBooleanToString(Boolean b) {

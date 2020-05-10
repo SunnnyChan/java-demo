@@ -1,5 +1,6 @@
 package me.sunny.demo.basics
 
+import me.sunny.demo.basics.type.TypeCast
 import spock.lang.Specification
 
 class TypeCastTest extends Specification {
