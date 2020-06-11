@@ -1,6 +1,5 @@
 package me.sunny.demo.algos.leetcode;
 
-import me.sunny.demo.algos.leetcode.LargestRectInHistogram;
 import org.junit.Test;
 import org.testng.Assert;
 

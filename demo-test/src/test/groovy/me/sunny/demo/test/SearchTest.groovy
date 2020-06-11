@@ -45,7 +45,7 @@ class SearchTest extends Specification {
         arr       | key | result
         []        | 1   | -1
         [1, 2, 9] | 9   | 2
-        [1, 2, 9] | 3   | 0
+        [1, 2, 9] | 3   | -1
     }
 
     // when-then-thrown

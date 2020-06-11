@@ -4,7 +4,7 @@ import me.sunny.demo.algos.leetcode.RemoveLinkedListElements.ListNode;
 import org.junit.Test;
 import org.testng.Assert;
 
-public class LeetCode {
+public class LeetCodeTest {
 
     @Test
     public void testHappyNumber() {

@@ -9,6 +9,7 @@
         <module name="demo-multi-thread" />
         <module name="demo-web" />
         <module name="demo-cookbook" />
+        <module name="demo-basics" />
         <module name="demo-netty" />
         <module name="demo-std" />
         <module name="demo-jdk" />
@@ -28,16 +29,13 @@
       <module name="demo-aop" target="8" />
       <module name="demo-basics" target="8" />
       <module name="demo-cookbook" target="8" />
-      <module name="demo-ddd" target="8" />
       <module name="demo-dp" target="8" />
       <module name="demo-fw" target="8" />
       <module name="demo-jdk" target="8" />
       <module name="demo-multi-thread" target="8" />
       <module name="demo-netty" target="8" />
       <module name="demo-network" target="8" />
-      <module name="demo-paradigm" target="8" />
       <module name="demo-rp" target="8" />
-      <module name="demo-spring" target="8" />
       <module name="demo-std" target="8" />
       <module name="demo-test" target="8" />
       <module name="demo-web" target="8" />
