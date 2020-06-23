@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-multi-thread" />
         <module name="demo-web" />
+        <module name="demo-interview" />
         <module name="demo-cookbook" />
         <module name="demo-basics" />
         <module name="demo-netty" />
@@ -30,6 +31,7 @@
       <module name="demo-cookbook" target="8" />
       <module name="demo-dp" target="8" />
       <module name="demo-fw" target="8" />
+      <module name="demo-interview" target="8" />
       <module name="demo-jdk" target="8" />
       <module name="demo-multi-thread" target="8" />
       <module name="demo-netty" target="8" />

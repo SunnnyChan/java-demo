@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo-cookbook/demo-cookbook.iml" filepath="$PROJECT_DIR$/demo-cookbook/demo-cookbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-dp/demo-dp.iml" filepath="$PROJECT_DIR$/demo-dp/demo-dp.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-fw/demo-fw.iml" filepath="$PROJECT_DIR$/demo-fw/demo-fw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-interview/demo-interview.iml" filepath="$PROJECT_DIR$/demo-interview/demo-interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-jdk/demo-jdk.iml" filepath="$PROJECT_DIR$/demo-jdk/demo-jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-multi-thread/demo-multi-thread.iml" filepath="$PROJECT_DIR$/demo-multi-thread/demo-multi-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-netty/demo-netty.iml" filepath="$PROJECT_DIR$/demo-netty/demo-netty.iml" />
