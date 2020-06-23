@@ -1,4 +1,4 @@
-package me.sunny.demo.interview;
+package me.sunny.demo.interview.howtodoinjava;
 
 import java.util.Date;
 
