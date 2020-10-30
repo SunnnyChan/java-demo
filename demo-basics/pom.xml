@@ -21,5 +21,22 @@
       <version>1.2.70</version>
       <scope>compile</scope>
     </dependency>
+      <dependency>
+          <groupId>commons-dbcp</groupId>
+          <artifactId>commons-dbcp</artifactId>
+          <version>1.4</version>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-jdbc</artifactId>
+          <version>5.2.4.RELEASE</version>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>cglib</groupId>
+          <artifactId>cglib</artifactId>
+          <version>3.2.0</version>
+      </dependency>
   </dependencies>
 </project>
