@@ -44,5 +44,17 @@
           <version>3.24.0-GA</version>
           <scope>test</scope>
       </dependency>
+      <!-- 解析xml -->
+      <dependency>
+          <groupId>dom4j</groupId>
+          <artifactId>dom4j</artifactId>
+          <version>1.1</version>
+      </dependency>
+      <!-- BeanUtils    -->
+      <dependency>
+          <groupId>commons-beanutils</groupId>
+          <artifactId>commons-beanutils</artifactId>
+          <version>1.9.3</version>
+      </dependency>
   </dependencies>
 </project>

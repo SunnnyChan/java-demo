@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!-- 配置IOC容器要管理的对象   bean作用域: 单例  原型 -->
+    <bean id="student" class="me.sunny.demo.basics.ioc.entity.Student" scope="singleton" lazy-init="true">
+        <!-- 依赖注入:   属性注入    构造器注入   注解注入-->
+        <property name="name" value="小明"></property>
+        <property name="tClass" ref="tclass"></property>
+    </bean>
+    <bean id="tclass" class="me.sunny.demo.basics.ioc.entity.TClass">
+        <property name="cname" value="3年2班"></property>
+        <property name="teacher" ref="teacher"></property>
+    </bean>
+    <bean id="teacher" class="me.sunny.demo.basics.ioc.entity.Teacher">
+        <property name="tname" value="陈老师"></property>
+    </bean>
+</beans>
