@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-aop/demo-aop.iml" filepath="$PROJECT_DIR$/demo-aop/demo-aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-basics/demo-basics.iml" filepath="$PROJECT_DIR$/demo-basics/demo-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-cookbook/demo-cookbook.iml" filepath="$PROJECT_DIR$/demo-cookbook/demo-cookbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-dp/demo-dp.iml" filepath="$PROJECT_DIR$/demo-dp/demo-dp.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-fw/demo-fw.iml" filepath="$PROJECT_DIR$/demo-fw/demo-fw.iml" />

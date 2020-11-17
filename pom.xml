@@ -135,7 +135,6 @@
         <module>web-javadoc</module> <!-- JavaDoc -->
         <module>demo-cookbook</module> <!-- Java 场景开发 -->
         <module>demo-web</module> <!-- Java Web  开发-->
-        <module>demo-basics</module> <!-- Java 基础  开发-->
     <module>demo-aop</module>
     <module>demo-interview</module>
   </modules>

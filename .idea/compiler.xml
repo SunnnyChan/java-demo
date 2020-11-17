@@ -10,7 +10,6 @@
         <module name="demo-web" />
         <module name="demo-interview" />
         <module name="demo-cookbook" />
-        <module name="demo-basics" />
         <module name="demo-netty" />
         <module name="demo-std" />
         <module name="demo-jdk" />
