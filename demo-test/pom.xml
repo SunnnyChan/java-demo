@@ -88,6 +88,12 @@
       <artifactId>jmh-generator-annprocess</artifactId>
       <version>1.23</version>
     </dependency>
+      <dependency>
+          <groupId>io.netty</groupId>
+          <artifactId>netty-all</artifactId>
+          <version>11.13</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
   <build>
     <plugins>
