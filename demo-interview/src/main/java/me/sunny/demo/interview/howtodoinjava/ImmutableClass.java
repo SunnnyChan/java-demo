@@ -78,4 +78,5 @@ public class ImmutableClass {
     immutableField2 = "test changed";
     mutableField.setTime(10);
   }
+
 }
